@@ -1,0 +1,78 @@
+
+
+button {
+  background-color: purple;
+  box-shadow: 5px 5px 10px;
+  border: double;
+  color: black;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  text-shadow: 5px;
+  margin-left: 10px;
+  border-top-left-radius: 15px;
+}
+
+	body
+{
+	background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?cs=srgb&dl=pexels-adrien-olichon-1257089-2387793.jpg&fm=jpg");
+    background-repeat: no-repeat , repeat;
+	background-position: center;
+}
+
+h3 {
+	color: black;
+	text-shadow: 1px 1px 5px;
+}
+
+
+h1 {
+	color: white;
+	
+	background-image: url("https://img.freepik.com/free-photo/black-painted-wall-textured-background_53876-110728.jpg")
+	text-shadow: 1px 1px 7px grey;
+	text-align: center;
+}
+.textmedtext {
+	border: solid white 1px;
+  background-color: white;
+  column-count: 3;
+  column-gap: 40px;
+	
+}
+
+h2 {
+	 font-family: verdana;
+  text-shadow: 1px 1px 1px darkgrey;
+  font-size: 22px;
+  border-style: double;
+  border-color: purple;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  border-bottom-right-radius: 5px; 
+  border-top-right-radius: 5px;
+  margin-left: 10px;;
+}
+
+
+
+
+link {
+  background-color: green;
+}
+
+visited {
+  background-color: red;
+}
+
+hover {
+  background-color: lightgreen;
+}
+
+active {
+  background-color: white;
+} 

@@ -1,0 +1,101 @@
+/* Hur gör jag koden mer simpel */
+
+.container {
+    background-color: rgba(0, 0, 1, 0.9);
+    max-width: 900px;                    
+    margin: 20px auto;                   
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;                
+    color: white;
+}
+
+img:hover {
+    transform: scale(1.1);    
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5); 
+    transition: all 0.3s ease;  
+}
+
+.bild-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.rund-bild {
+    width: 300px;
+    border-radius: 25px;
+}
+
+
+.hover-bild:hover {
+    transform: scale(1.05);      
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5); 
+    transition: all 0.3s ease;   
+}
+
+
+
+.text-del {
+    margin: 25px 0;
+}
+
+
+.navbar {
+    background-color: #EEF;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+.navbar button {
+    background-color: transparent;
+    color: #4B0082;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #4B0082;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.navbar button:hover {
+    background-color: #4B0082;
+    color: white;
+}
+
+
+.text-och-bild {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+.text-del {
+    flex: 1;
+}
+
+.bild-del img {
+    width: 350px;
+    border-radius: 15px;
+    display: block;
+}
+
+.bild-container {
+    text-align: center;
+    margin: 20px 0;   
+}
+
+.rund-bild {
+    width: 200px;      
+    border-radius: 20px; 
+	
+}
+
